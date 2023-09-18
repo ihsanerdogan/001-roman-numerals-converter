@@ -35,8 +35,8 @@ Resources:
         pip3 install flask
         yum install git -y
         cd /home/ec2-user
-        wget -P templates https://raw.githubusercontent.com/awsdevopsteam/roman-number-conventor/master/templates/index.html
-        wget -P templates https://raw.githubusercontent.com/awsdevopsteam/roman-number-conventor/master/templates/result.html
+        wget -P templates https://raw.githubusercontent.com/ihsanerdogan/001-roman-numerals-converter/main/templates/index.html
+        wget -P templates https://raw.githubusercontent.com/ihsanerdogan/001-roman-numerals-converter/main/templates/result.html
         wget https://raw.githubusercontent.com/awsdevopsteam/roman-number-conventor/master/app.py
         python3 roman-numerals-converter-app.py
 
